@@ -8,7 +8,8 @@ To run both the client and the server, you can run:
 ![](screencast.gif)
 
 ### Api
-The Api serves the following endpoints:<br />
+####The Api serves the following endpoints:####<br />
+<br />
 Fetch all users:                    `/api/users`<br />
 Fetch specific user:                `/api/users/{userId}`<br />
 Fetch all posts:                    `/api/posts`<br />
