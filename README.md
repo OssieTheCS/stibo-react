@@ -15,8 +15,8 @@ Fetch all posts:                    `/api/posts`<br />
 Fetch all posts for specific user:  `/api/posts/{userId}` 
 
 ### Client cache
-The client will cache any posts to the browser that it has gotten from the API.
-Whenever React registers that user has been clicked on, it will check if it has that users posts cached in the state of the Posts component.
+The client will cache any posts to the browser that it has gotten from the api.
+Whenever React registers a click on a user, it will check whether the posts for that user are cached already.
 If it does not have them, it will fetch them from the api and cache them for later use.
 <br />
 <br />
