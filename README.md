@@ -18,6 +18,17 @@ Fetch all posts for specific user:  `/api/posts/{userId}`
 The client will cache any posts to the browser that it has gotten from the api.
 Whenever React registers a click on a user, it will check whether the posts for that user are cached already.
 If it does not have them, it will fetch them from the api and cache them for later use.
+
+### React Components
+#### React renders the frontend based on two custom components:
+* Posts
+| State prop    | Type         | Description                                                              |
+| ------------- |:------------:| ------------------------------------------------------------------------:|
+| userId        | string       | Id of current active user                                                |
+| posts         | json array   | Posts of user with id userId                                             |
+| cachedPosts   | dict         | Keeps track of cached posts. key: userId, value: posts of that user.     |
+* Users
+
 <br />
 <br />
 <br />
