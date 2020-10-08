@@ -9,10 +9,10 @@ To run both the client and the server, you can run:
 
 ### Api
 The Api serves the following endpoints:<br />
-/api/users - (fetch all users)<br />
-/api/users/{userId} - (fetch specific user)<br />
-/api/posts (fetch all posts)<br />
-/api/posts/{userId} (fetch all posts for specific user)
+`/api/users` - (fetch all users)<br />
+`/api/users/{userId}` - (fetch specific user)<br />
+`/api/posts` (fetch all posts)<br />
+`/api/posts/{userId}` (fetch all posts for specific user)
 
 ### Client cache
 The client will cache any posts to the browser that it has gotten from the API.
