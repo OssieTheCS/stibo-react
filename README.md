@@ -7,6 +7,18 @@ To run both the client and the server, you can run:
 
 ![](screencast.gif)
 
+### Api
+The Api serves the following endpoints:
+/api/users - (fetch all users)
+/api/users/{userId} - (fetch specific user)
+/api/posts (fetch all posts)
+/api/posts/{userId} (fetch all posts for specific user)
+
+### Client cache
+The client will cache any posts to the browser that it has gotten from the API.
+Whenever React registers that user has been clicked on, it will check if it has that users posts cached in the state of the Posts component.
+If it does not have them, it will fetch them from the api and cache them for later use.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
