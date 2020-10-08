@@ -21,13 +21,18 @@ If it does not have them, it will fetch them from the api and cache them for lat
 
 ### React Components
 #### React renders the frontend based on two custom components:
-* Posts
+Posts
 | State prop    | Type         | Description                                                              |
-| ------------- |:------------:| ------------------------------------------------------------------------:|
+| ------------- |:-------------| :------------------------------------------------------------------------|
 | userId        | string       | Id of current active user                                                |
 | posts         | json array   | Posts of user with id userId                                             |
-| cachedPosts   | dict         | Keeps track of cached posts. key: userId, value: posts of that user.     |
-* Users
+| cachedPosts   | dict         | Keeps track of cached posts.<br /> **key**: userId<br /> **value**: posts of that user.     |
+
+Users
+| State prop    | Type         | Description                                                              |
+| -------------|:-------------| :-------------------------------------------------------------------------|
+| users        | json array   | List containing all users                                                 |
+| activeUser   | json         | The currently active user                                                 |
 
 <br />
 <br />
