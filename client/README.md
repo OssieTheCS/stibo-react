@@ -1,5 +1,5 @@
-THe project consists of a server/client architecture, where the server hosts an api using expressJS while the client uses React to render the single page application (SPA).
-The server runs on port 5000 while the client runs on server 3000.
+The project consists of a server/client architecture, where the server hosts an api using expressJS while the client uses React to render the single page application (SPA).
+The server runs on port 5000 while the client runs on port 3000.
 
 ## Custom Scripts
 To run both the client and the server, you can run:
