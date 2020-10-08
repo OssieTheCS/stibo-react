@@ -5,7 +5,7 @@ The server runs on port 5000 while the client runs on port 3000.
 To run both the client and the server, you can run:
 ### `npm run dev`
 
-![](https://imgur.com/RdDzLaB)
+![](screencast.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
